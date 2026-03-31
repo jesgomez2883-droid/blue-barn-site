@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 export default function BlueBarnCoffee() {
   return (
@@ -136,6 +137,7 @@ export default function BlueBarnCoffee() {
       <footer className="px-6 py-8 text-center text-neutral-500 text-xs">
         © {new Date().getFullYear()} Blue Barn Coffee — Andrews, Texas
       </footer>
+      <SpeedInsights />
     </div>
   );
 }
